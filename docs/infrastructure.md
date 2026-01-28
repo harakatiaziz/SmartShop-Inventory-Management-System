@@ -12,7 +12,7 @@ The infrastructure design reflects the **systemic nature** of the MIS—it must 
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    CLOUD LAYER                               │
+│                    CLOUD LAYER                              │
 │  - Backup & Disaster Recovery                               │
 │  - Executive Dashboard Access (Remote)                      │
 │  - Analytics & Reporting Workloads                          │
@@ -21,7 +21,7 @@ The infrastructure design reflects the **systemic nature** of the MIS—it must 
                   │ Secure VPN Tunnel
                   │ Data Synchronization (Nightly + Real-time Critical)
 ┌─────────────────┴───────────────────────────────────────────┐
-│                 ON-PREMISE CORE                              │
+│                 ON-PREMISE CORE                             │
 │  - Transaction Processing (POS)                             │
 │  - Primary Inventory Database                               │
 │  - Store Network Infrastructure                             │
